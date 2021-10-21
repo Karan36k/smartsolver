@@ -623,8 +623,9 @@ document.write(unescape('%3C%6D%65%74%61%20%70%72%6F%70%65%72%74%79%3D%22%6F%67%
 		</textarea>
 		<div class="rdBtn">
 			<input type="file" id="image-file" onchange="ChangeImage()" multiple="false" class="btn btn-default  btn-block"/><br><br>
-			<button type="button" style="background-color: #de5151" onclick="valueInitialize();Random();" class="btn btn-default  btn-block">Generate A Random Puzzle</button><br><br>
-			<button type="button" style="background-color: #de5151" onclick="clickEvent = false;btnDisable();Main();" class="btn btn-default  btn-block">Machine Auro Solve</button><br><br>
+			<button type="button" style="background-color: #de5151" onclick="valueInitialize();Random();" class="btn btn-default  btn-block">Generate A Random Puzzle</button><br>
+			<small style="color: white">upload img first then shuffle & solve<br></small>
+			<button type="button" style="background-color: #de5151" onclick="clickEvent = false;btnDisable();Main();" class="btn btn-default  btn-block">Machine Auto Solve</button><br><br>
 			<button type="button" style="background-color: #de5151" onclick="checkSteps=true;clickEvent = true;Main();" class="btn btn-default  btn-block">Machine Calculated Steps</button>
 		</div>
 	</div>
